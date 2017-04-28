@@ -205,17 +205,17 @@ public class Editor extends javax.swing.JFrame {
 
         jMenu1.setText("Arquivo");
 
-        jmNovo.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_N, java.awt.event.InputEvent.ALT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+        jmNovo.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_N, java.awt.event.InputEvent.CTRL_MASK));
         jmNovo.setText("Novo");
         jmNovo.setActionCommand("novo");
         jMenu1.add(jmNovo);
 
-        jmAbrir.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.ALT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+        jmAbrir.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.CTRL_MASK));
         jmAbrir.setText("Abrir");
         jmAbrir.setActionCommand("abrir");
         jMenu1.add(jmAbrir);
 
-        jmSalvar.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_N, java.awt.event.InputEvent.ALT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+        jmSalvar.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_MASK));
         jmSalvar.setText("Salvar");
         jmSalvar.setActionCommand("salvar");
         jMenu1.add(jmSalvar);
@@ -229,6 +229,7 @@ public class Editor extends javax.swing.JFrame {
 
         jMenu2.setText("Sobre");
 
+        jmSobre.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
         jmSobre.setText("Sobre o Editor");
         jmSobre.setActionCommand("sobre");
         jMenu2.add(jmSobre);
