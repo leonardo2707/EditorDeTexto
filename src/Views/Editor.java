@@ -90,6 +90,8 @@ public class Editor extends javax.swing.JFrame {
     }
 
     private void gravarArquivo(String nomeArquivo, String textoArquivo) {
+        textoArquivo = textoArquivo.replaceAll("\n", "\r\n");
+        
         FileWriter fileWriter = null;
         BufferedWriter bufferedWriter = null;
         try {
